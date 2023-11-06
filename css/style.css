@@ -8766,7 +8766,6 @@ h1, h2, h3, h4, h5,
   z-index: 0;
   position: relative; }
   .ftco-about .img-about .img {
-    background-size: 300px;
     display: block;
     width: 100%;
     position: relative;
@@ -8815,8 +8814,7 @@ h1, h2, h3, h4, h5,
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 3px;
-    text-transform: uppercase;
-  color: white; }
+    text-transform: uppercase; }
 
 .services-1 {
   margin-bottom: 40px;
@@ -9256,7 +9254,16 @@ textarea.form-control {
   .ftco-counter {
     background-position: center center !important; } }
 
-
+.ftco-counter .block-18 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #191919;
+  padding: 30px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
 
 .ftco-counter .text strong.number {
   font-weight: 700;
@@ -9401,14 +9408,25 @@ textarea.form-control {
     font-weight: 500;
     text-transform: uppercase; }
 
+.contact-section .contact-form {
+  width: 100%; }
 
-
-
+.contact-section .img {
+  width: 100%;
+  background-position: top center; }
+  @media (max-width: 991.98px) {
+    .contact-section .img {
+      height: 500px; } }
 
 .contact-section .contact-info p a {
   color: #fff; }
 
-
+.contact-section .contact-form {
+  width: 100%; }
+  @media (max-width: 767.98px) {
+    .contact-section .contact-form .btn-primary {
+      display: block;
+      width: 100%; } }
 
 .block-9 .form-control {
   outline: none !important;
